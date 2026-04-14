@@ -1,7 +1,6 @@
 import { initializeApp } 
 from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
 
-// 🔥 Your Firebase config
 const firebaseConfig = {
   apiKey: "AIzaSyBtsJ9rVqJWE93hPW7fYNQu25NVGX8FYuw",
   authDomain: "smart-irrigation-system-e649a.firebaseapp.com",
@@ -13,7 +12,6 @@ const firebaseConfig = {
   measurementId: "G-GJKFJW2Z71"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 export default app;
